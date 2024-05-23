@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5L9/SNp3miU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Macskási Levente\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Macskási Levente\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Macskási Levente\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
+    "C:\\Users\\Macskási Levente\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
