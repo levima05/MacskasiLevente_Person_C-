@@ -1,73 +1,88 @@
 using NUnit.Framework;
-using NUnit.Framework.Legacy;
 using System.Collections.Generic;
 using PeopleProject;
 
-
 namespace TestPeopleProject
 {
-    public class SzemelyStatisztikaTeszt
+    public class PersonStatisticsTests
     {
-        private List<Person> szemelyek;
-        private PersonStatistics stat;
+        private List<Person> people;
+        private PersonStatistics stats;
 
         [SetUp]
         public void Init()
         {
-            szemelyek = new List<Person>
+            people = new List<Person>
             {
-                new Person { Id = 1, Nev = "John Doe", Kor = 25, Diak = true, Pontszam = 80 },
-                new Person { Id = 2, Nev = "Jane Smith", Kor = 30, Diak = false, Pontszam = 70 },
-                new Person { Id = 3, Nev = "Bob Brown", Kor = 22, Diak = true, Pontszam = 90 },
-                new Person { Id = 4, Nev = "Alice Green", Kor = 35, Diak = false, Pontszam = 50 },
-                new Person { Id = 5, Nev = "Charlie Black", Kor = 28, Diak = true, Pontszam = 30 }
+                new Person { Id = 1, Name = "John Doe", Age = 25, IsStudent = true, Score = 80 },
+                new Person { Id = 2, Name = "Jane Smith", Age = 30, IsStudent = false, Score = 70 },
+                new Person { Id = 3, Name = "Bob Brown", Age = 22, IsStudent = true, Score = 90 },
+                new Person { Id = 4, Name = "Alice Green", Age = 35, IsStudent = false, Score = 50 },
+                new Person { Id = 5, Name = "Charlie Black", Age = 28, IsStudent = true, Score = 30 }
             };
-            stat = new PersonStatistics(szemelyek);
-        }
- 
-        [Test]
-        public void AtlagKor1()
-        {
-            double atlagKor = stat.AtlagKor();
-            Assert.That(atlagKor, Is.EqualTo(28));
-
+            stats = new PersonStatistics(people);
         }
 
         [Test]
-        public void DiakokSzama1()
+        public void GetAverageAge()
         {
-            int diakok = stat.DiakokSzama();
-            Assert.That(diakok, Is.EqualTo(3));
+            double averageAge = stats.GetAverageAge();
+            Assert.That(averageAge, Is.EqualTo(28));
         }
 
         [Test]
-        public void LegmagasabbPontszam1()
+        public void GetAverageAge2()
         {
-            Person legjobb = stat.LegmagasabbPontszam();
-            Assert.That(legjobb.Id, Is.EqualTo(3));
+            stats.People = new List<Person>();
+            double averageAge = stats.GetAverageAge();
+            Assert.That(averageAge, Is.EqualTo(0));
         }
 
         [Test]
-        public void DiakokAtlagPontszama1()
+        public void GetNumberOfStudents()
         {
-            double atlagPontszam = stat.DiakokAtlagPontszama();
-            Assert.That(atlagPontszam, Is.EqualTo(66.67).Within(0.01));
+            int numberOfStudents = stats.GetNumberOfStudents();
+            Assert.That(numberOfStudents, Is.EqualTo(3));
         }
 
         [Test]
-        public void LegidosebbDiak1()
+        public void GetHighestScore()
         {
-            Person legidosebbDiak = stat.LegidosebbDiak();
-            Assert.That(legidosebbDiak.Id, Is.EqualTo(1));
+            Person highestScorer = stats.GetPersonWithHighestScore();
+            Assert.That(highestScorer.Id, Is.EqualTo(3));
         }
 
         [Test]
-        public void BarmelyikBukik1()
+        public void GetAverageScore()
         {
-            bool vanBukott = stat.BarmelyikBukik();
-            Assert.That(vanBukott, Is.True);
-        } 
+            double averageScore = stats.GetAverageScoreOfStudents();
+            Assert.That(averageScore, Is.EqualTo(66.67).Within(0.01));
+        }
 
+        [Test]
+        public void GetOldestStudent()
+        {
+            Person oldestStudent = stats.GetOldestStudent();
+            Assert.That(oldestStudent.Id, Is.EqualTo(1));
+        }
+
+        [Test]
+        public void IsAnyoneFailing()
+        {
+            bool isFailing = stats.IsAnyoneFailing();
+            Assert.That(isFailing, Is.True);
+        }
+
+        [Test]
+        public void IsAnyoneFailing2()
+        {
+            stats.People = new List<Person>
+            {
+                new Person { Id = 1, Name = "John Doe", Age = 25, IsStudent = true, Score = 80 },
+                new Person { Id = 2, Name = "Jane Smith", Age = 30, IsStudent = false, Score = 70 }
+            };
+            bool isFailing = stats.IsAnyoneFailing();
+            Assert.That(isFailing, Is.False);
+        }
     }
 }
- 

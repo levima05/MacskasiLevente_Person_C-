@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\TestPeopleProject\\TestPeopleProject.csproj": {}
+    "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\TestPeopleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj": {
+    "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj",
+        "projectUniqueName": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject.csproj",
         "projectName": "PeopleProject",
-        "projectPath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj",
+        "projectPath": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject.csproj",
         "packagesPath": "C:\\Users\\Macskási Levente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\obj\\",
+        "outputPath": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\TestPeopleProject\\TestPeopleProject.csproj": {
+    "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\TestPeopleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\TestPeopleProject\\TestPeopleProject.csproj",
+        "projectUniqueName": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\TestPeopleProject.csproj",
         "projectName": "TestPeopleProject",
-        "projectPath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\TestPeopleProject\\TestPeopleProject.csproj",
+        "projectPath": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\TestPeopleProject.csproj",
         "packagesPath": "C:\\Users\\Macskási Levente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\TestPeopleProject\\obj\\",
+        "outputPath": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj": {
-                "projectPath": "C:\\Users\\Macskási Levente\\source\\repos\\levima05\\asd\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject\\PeopleProject.csproj"
+              "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject.csproj": {
+                "projectPath": "C:\\Users\\Macskási Levente\\Source\\Repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PeopleProject.csproj"
               }
             }
           }

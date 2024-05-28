@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\desktop\\peopleproject\\peopleproject\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|solutionrelative:peopleproject\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A3EB6C-B7E3-4A19-9950-DF2A39FC60E7}|TestPeopleProject\\TestPeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\desktop\\peopleproject\\testpeopleproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68A3EB6C-B7E3-4A19-9950-DF2A39FC60E7}|TestPeopleProject\\TestPeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\source\\repos\\levima05\\macskasilevente_person_c-\\testpeopleproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A3EB6C-B7E3-4A19-9950-DF2A39FC60E7}|TestPeopleProject\\TestPeopleProject.csproj|solutionrelative:testpeopleproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\desktop\\peopleproject\\peopleproject\\personstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\source\\repos\\levima05\\macskasilevente_person_c-\\peopleproject\\personstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|solutionrelative:peopleproject\\personstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|c:\\users\\macsk\u00E1si levente\\source\\repos\\levima05\\macskasilevente_person_c-\\peopleproject\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8948B619-F4EC-478A-8A44-31E74191C1E7}|PeopleProject\\PeopleProject.csproj|solutionrelative:peopleproject\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,38 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\TestPeopleProject\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestPeopleProject\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\TestPeopleProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\TestPeopleProject\\UnitTest1.cs",
               "RelativeToolTip": "TestPeopleProject\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T09:53:16.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PersonStatistics.cs",
-              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\PeopleProject\\PersonStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PersonStatistics.cs",
               "RelativeDocumentMoniker": "PeopleProject\\PersonStatistics.cs",
-              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\PeopleProject\\PersonStatistics.cs",
+              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\PersonStatistics.cs",
               "RelativeToolTip": "PeopleProject\\PersonStatistics.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T09:51:09.189Z"
+              "WhenOpened": "2024-05-23T09:51:09.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\PeopleProject\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\Person.cs",
               "RelativeDocumentMoniker": "PeopleProject\\Person.cs",
-              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\Desktop\\PeopleProject\\PeopleProject\\Person.cs",
+              "ToolTip": "C:\\Users\\Macsk\u00E1si Levente\\source\\repos\\levima05\\MacskasiLevente_Person_C-\\PeopleProject\\Person.cs",
               "RelativeToolTip": "PeopleProject\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T09:50:32.234Z",
               "EditorCaption": ""

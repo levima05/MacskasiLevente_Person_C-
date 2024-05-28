@@ -3,10 +3,9 @@
     public class Person
     {
         public int Id { get; set; }
-        public string Nev { get; set; }
-        public int Kor { get; set; }
-        public bool Diak { get; set; }
-        public int Pontszam { get; set; }
-    } 
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public bool IsStudent { get; set; }
+        public int Score { get; set; }
+    }
 }
-  

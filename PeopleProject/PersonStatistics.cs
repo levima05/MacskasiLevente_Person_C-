@@ -6,42 +6,48 @@ namespace PeopleProject
 {
     public class PersonStatistics
     {
-        private List<Person> Szemelyek { get; }
+        private List<Person> people;
 
-        public PersonStatistics(List<Person> szemelyek)
+        public List<Person> People
         {
-            Szemelyek = szemelyek ?? throw new ArgumentNullException(nameof(szemelyek));
+            get => people;
+            set => people = value ?? throw new ArgumentNullException(nameof(value));
         }
 
-        public double AtlagKor()
+        public PersonStatistics(List<Person> people)
         {
-            return Szemelyek.Any() ? Szemelyek.Average(p => p.Kor) : 0;
+            People = people ?? throw new ArgumentNullException(nameof(people));
         }
 
-        public int DiakokSzama()
+        public double GetAverageAge()
         {
-            return Szemelyek.Count(p => p.Diak);
+            return People.Any() ? People.Average(p => p.Age) : 0;
         }
 
-        public Person LegmagasabbPontszam()
+        public int GetNumberOfStudents()
         {
-            return Szemelyek.OrderByDescending(p => p.Pontszam).FirstOrDefault();
+            return People.Count(p => p.IsStudent);
         }
 
-        public double DiakokAtlagPontszama()
+        public Person GetPersonWithHighestScore()
         {
-            var diakok = Szemelyek.Where(p => p.Diak).ToList();
-            return diakok.Any() ? diakok.Average(p => p.Pontszam) : 0;
+            return People.OrderByDescending(p => p.Score).FirstOrDefault();
         }
 
-        public Person LegidosebbDiak()
+        public double GetAverageScoreOfStudents()
         {
-            return Szemelyek.Where(p => p.Diak).OrderByDescending(p => p.Kor).FirstOrDefault();
+            var students = People.Where(p => p.IsStudent).ToList();
+            return students.Any() ? students.Average(p => p.Score) : 0;
         }
 
-        public bool BarmelyikBukik()
+        public Person GetOldestStudent()
         {
-            return Szemelyek.Any(p => p.Pontszam < 40);
+            return People.Where(p => p.IsStudent).OrderByDescending(p => p.Age).FirstOrDefault();
+        }
+
+        public bool IsAnyoneFailing()
+        {
+            return People.Any(p => p.Score < 40);
         }
     }
 }
